@@ -1,0 +1,114 @@
+.App {
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #ffe4d6  ;
+  height: 100%;
+  color: #654321;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fddca7;
+  z-index: 0;
+}
+
+.loading {
+  width: 100px;
+  height: 100px;
+  border: 18px solid;
+  border-color: #654321 transparent;
+  border-radius: 80%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.conatiner{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.wraper{
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  margin: 40px;
+  padding: 50px;
+  background-color: #fddca7;
+  border-radius: 40px;
+  border-style: solid; 
+  border-width: thin; 
+  border-color: #654321;
+}
+
+.main-heading{
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.search{
+  width: 97%;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border-width: 1px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: rgba(125, 125, 135, 0.25) 0px 6px 12px -2px,
+    rgba(108, 104, 104, 0.3) 0px 3px 7px -3px;
+}
+
+.antd-card{
+  color: #654321 ;
+  background: #fddca7 ; 
+  width: 500px; 
+  border-radius: 20px;
+  border-color: #654321;
+}
+
+.error-page{
+  background: #fddca7;
+  width: 500px;
+  margin: auto;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel-container {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+.card-container {
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
